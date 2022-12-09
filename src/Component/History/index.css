@@ -1,0 +1,124 @@
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-container {
+  padding: 15px;
+  width: 100%;
+  background-color: #3367d6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 30%;
+}
+
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2850a7;
+  height: 100%;
+  padding: 10px;
+  border: solid 1px #ececec;
+}
+
+.search-container {
+  background-color: #2850a7;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  border: solid 1px #ececec;
+}
+
+.search-input {
+  width: 100px;
+  background-color: #2850a7;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 200px;
+  }
+
+  .search-input {
+    width: 250px;
+  }
+}
+
+.history-container {
+  width: 90%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 6px 16px rgba(126, 133, 142, 0.16);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 80%;
+  }
+  .nav-container {
+    width: 100%;
+  }
+
+  .no-history {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    color: #475569;
+    margin-top: 20%;
+  }
+  .empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .search-container {
+    background-color: #2850a7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 180px;
+    border: solid 1px #ececec;
+  }
+
+  .search-input {
+    width: 100px;
+    background-color: #2850a7;
+    border: none;
+    outline: none;
+    color: #ffffff;
+  }
+}

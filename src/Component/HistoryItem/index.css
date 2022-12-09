@@ -1,0 +1,57 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    padding: 10px 20px 10px 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.time {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+  width: 150px;
+}
+
+.logo {
+  margin-right: 8px;
+  width: 30px;
+}
+
+.title {
+  margin-right: 8px;
+  font-family: 'Roboto';
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
